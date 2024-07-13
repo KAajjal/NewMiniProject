@@ -26,4 +26,4 @@ Feature: Login Page UI Tests
 
   Scenario: login With Valid credentials
     Given user is on login page
-    Then I enter the wrong username and password and I will navigate to the home page
+    Then I enter the correct username and password and I will navigate to the home page
